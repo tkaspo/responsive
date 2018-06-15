@@ -1,0 +1,159 @@
+
+body {
+  padding-top: 70px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(205, 205, 205, 0.8)
+  border-bottom: 2px solid #ccc;
+  height: 70px;
+  width: 100%;
+}
+nav li {
+  float: left;
+  width: auto;
+}
+nav li a {
+  padding: 25px 10px;
+  display: block;
+  color: #0A8783;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: rgba(10, 135, 131, 0.8);
+  color: white;
+}
+#brand {
+  color: transparent;
+  background: url(file:///Users/taylorkasper/responsive/images/_tk-01.svg) no-repeat top left;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 5px;
+}
+nav ul {
+  float: right;
+  width: auto;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#hero {
+  background: url(https://taylorkasper.files.wordpress.com/2018/05/background.png) no-repeat top left;
+  background-image: radial-gradient(/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.1+0,0.1+100;White+to+Transparent */
+                    -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
+                    -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affffff', endColorstr='#1affffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */);
+  color: #fafafa;
+  text-align: center;
+  height: 350px;
+  padding: 25px 0;
+  background-size: cover;
+}
+
+#hero img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+#hero h2 {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.column img {
+  width: 90%;
+  max-width: 90%;
+  border-radius: 50%;
+}
+
+.column h4 {
+  padding: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #0A8783;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px #ccc;
+}
+
+.column p {
+  padding: 5px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button {
+  background-color: #0A8783;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  margin: auto;
+  text-shadow: 1px 1px 4px #ccc;
+  font-family: sans-serif;
+}
+
+#social {
+   float:left;
+   width:100%;
+   background:#fff;
+   border-bottom:4px solid #000;
+   overflow:hidden;
+   position:relative;
+}
+#social ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#social ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#social ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#ddd;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#social ul li a:hover {
+   background:#369;
+   color:#fff;
+}
+#social ul li a.active,
+#social ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
